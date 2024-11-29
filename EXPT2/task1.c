@@ -1,18 +1,39 @@
-#include <stdio.h>
+/* WAP to find if entered number is even or odd
+Name: kaif barudgar
+ROLL NO: 47
+DIV: E
+CLASS: ECS
+UIN: 241S047
+*/
 
-int main() {
-    int num;
+ #include<stdio.h>
+ int main()
+ 
+ {
+ int num;
+ 
+ printf("/t/t/t*** EVEN ODD FINDER ***/n/n/n");
+ 
+ printf("ENTER NUMBER: ");
+ scanf("%d", &num);
+ 
+ if(num%2==0){
+ printf("%d is EVEN",num);
+ 
+ }else{
+ printf("%d is ODD", num);
+ }
+ 
+ return 0;
+ }
+ /* OUTPUT:-
+ *** EVEN ODD FINDER ***
+ 
+ Enter a number: 2
+ 2 is EVEN
+ *** EVEN ODD FINDER ***
+ 
+ Enter a number: 5
+5 is ODD
+*/
 
-    printf("\t\t\t * EVEN ODD FINDER *\n\n\n");
-
-    printf("ENTER NUMBER: ");
-    scanf("%d", &num);
-
-    if (num % 2 == 0) {
-        printf("%d is EVEN\n", num);
-    } else {
-        printf("%d is ODD\n", num);
-    }
-
-    return 0;
-}
