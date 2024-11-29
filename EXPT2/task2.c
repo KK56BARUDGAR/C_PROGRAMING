@@ -1,29 +1,49 @@
-#include <stdio.h>
+ /*
+ EXP.No: 2.2
+ TITLE:WAP to find the sum of all the odd numbers
+ between numbers entered by the user.
+ NAME:kaif barudgar
+ ROLL.NO: 47
+ DIV: E
+ UIN: 241S063
+ BRANCH: ECS
+ */
 
-int main() {
-    int start_num, end_num, sum = 0, i;
+ #include <stdio.h>
 
-    printf("\t\t\t Sum Of Odd Numbers \n\n\n");
-    printf("\t\t\t By kaif barudgar \n\n");
-    printf("Enter a Starting Number: ");
-    scanf("%d", &start_num);
-    printf("Enter an Ending Number: ");
-    scanf("%d", &end_num);
+ int main() {
+ int start_num, end_num, sum = 0, i;
 
-   
-    if (start_num > end_num) {
-        printf("Error: Starting Number is higher than Ending Number\n");
-        return 1;
-    }
+ // Prompt user for input
+ printf("\t\t\t*** Sum of Odd Numbers ***\n\n");
+ printf("Enter a starting number: ");
+ scanf("%d", &start_num);
+ printf("Enter an ending number: ");
+ scanf("%d", &end_num);
 
-    
-    for (i = start_num; i <= end_num; i++) {
-        if (i % 2 != 0) { // Check if the number is odd
-            sum += i; // Add odd number to sum
-        }
-    }
+ // Check if the starting number is less than or equal to the ending number
+ if (start_num > end_num) {
+ printf("Start number is higher than the end number.\n");
+ return 1; // Exit if the input is invalid
+ }
 
-    printf("Sum of Odd Numbers Between %d and %d is %d\n", start_num, end_num, sum);
+ // Loop through the range from start_num to end_num
+ for (i = start_num; i <= end_num; i++) {
+ if (i % 2 != 0) { // Check if the number is odd
+ sum += i; // Add the odd number to sum
+ }
+ }
 
-    return 0;
-}
+ // Output the result
+ printf("The sum of odd numbers between %d and %d is: %d\n", start_num, end_num, sum);
+ return 0;
+ }
+
+ /*
+ OUTPUT: *** Sum of Odd Numbers ***
+
+ Enter a starting number: 15
+ Enter an ending number: 9
+ Start number is higher than the end number.
+
+*/
