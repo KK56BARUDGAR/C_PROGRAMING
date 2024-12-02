@@ -1,5 +1,12 @@
-//find all the prime numbers between two numbers using functions
-#include <stdio.h>
+ /*
+ EXP NO : 4
+ TITLE : WAP TO FIND THE PRIME NUMBER BETWEEN TWO NUMBER
+ NAME : kaif barudgar
+ UIN :241S063
+ Roll.No:47
+ CLASS & DIV :F.E -ECS ENG(E3) */
+
+ #include <stdio.h>
 int isPrime(int num){
 if (num < 2){
 return 0;
@@ -32,3 +39,14 @@ scanf("%d", &end);
 findPrimes(start, end);
 return 0;
 }
+/* OUTPUT
+ ***To Find the Prime Numbers between Two Numbers***
+
+ Enter Two Numbers:
+ 1
+ 50
+ The Prime Numbers Between 1 and 50 are
+ 2 3 5 7 11
+ 13 17 19 23 29
+ 31 37 41 43 47
+ [Process completed - press Enter]
