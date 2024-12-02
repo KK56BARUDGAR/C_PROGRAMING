@@ -1,4 +1,11 @@
-// calculate sum of two matrix.
+ /*
+ EXP NO : 7.2
+ TITLE : WAP TO calculate sum of two matrix
+ NAME : kaif barudgar
+ UIN :241S063
+ Roll.No:47
+ CLASS & DIV :F.E -ECS ENG(E3) */
+
 #include <stdio.h>
 int main() {
  int rows, cols;
@@ -33,3 +40,21 @@ int main() {
  }
  return 0;
 }
+/*
+OUTPUT :
+Enter the number of rows: 2
+Enter the number of columns: 2
+Enter elements of the first matrix:
+1
+2
+3
+4
+Enter elements of the second matrix:
+9
+7
+4
+5
+Sum of the two matrices:
+10 9
+7 9
+*/
