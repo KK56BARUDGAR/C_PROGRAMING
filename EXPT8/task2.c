@@ -1,4 +1,11 @@
-// checking if the entered string is palindrome or not
+ /*
+ EXP NO : 8.2
+ TITLE : WAP TO check if the entered string is palindrome or not
+ NAME : kaif barudgar
+ UIN :241S063
+ Roll.No:47
+ CLASS & DIV :F.E -ECS ENG(E3) */
+
 #include <stdio.h>
 #include <string.h>
 int main() {
@@ -16,3 +23,17 @@ int main() {
  break;
  }
  }
+ if (isPalindrome) {
+ printf("The string is a palindrome.\n");
+ } else {
+ printf("The string is not a palindrome.\n");
+ }
+ return 0;
+}
+/*
+OUTPUT :
+Enter a string: hello
+The string is not a palindrome.
+Enter a string: radar
+The string is a palindrome.
+*/
