@@ -1,4 +1,11 @@
-//finding the largest element in an array.
+ /*
+ EXP NO : 7.1
+ TITLE : WAP TO FIND the largest element in an array
+ NAME : kaif barudgar
+ UIN :241S063
+ Roll.No:47
+ CLASS & DIV :F.E -ECS ENG(E3) */
+
 #include <stdio.h>
 int main() {
 int n;
@@ -18,3 +25,11 @@ largest = arr[i];
 printf("The largest element in the array is: %d\n", largest);
 return 0;
 }
+
+/*
+OUTPUT :
+Enter the number of elements in the array: 5
+Enter 5 elements:
+45 18 63 69 77
+The largest element in the array is: 77
+*/
