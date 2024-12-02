@@ -1,3 +1,13 @@
+/* EXP NO:6
+ TITLE:WAP to define a counter function
+ to print how many times the function is
+ being called us storage classes.
+ NAME:kaif barudgar
+ UIN:241S063
+ ROLL NO:47
+ DIV:E
+ */
+
 #include<stdio.h>
 extern int countExtern;
 void counterFunctionStatic() {
@@ -34,3 +44,14 @@ counterFunctionExtern();
 counterFunctionExtern();
 return 0;
 }
+/* OUTPUT
+
+ ***To print how many times the function is being called***
+
+Static: Function called 1 times
+Static: Function called 2 times
+Static: Function called 3 times
+Auto: Function called 1 times\
+Register: Function called 1 times
+Extern: Function called 1 times
+*/
