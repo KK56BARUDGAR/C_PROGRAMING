@@ -1,5 +1,15 @@
-#include<stdio.h>
-    
+/* WEP to get student pcm marks from the user
+ and find the average use conditional operator
+ to print if student is eligible for the admission.
+ eligibility criteria is 50% in PCM.
+ NAME: kaif barudgar
+ Roll.no:47
+ div:E
+ class: ECS
+ UIN: 241S063
+ */
+ #include<stdio.h>
+
  int main()
  {
  int phy,chem,maths;
@@ -15,7 +25,6 @@
  scanf("%d",&maths);
 
  avg=(phy+chem+maths)/3;
-
  printf("PCM average= %.3f",avg);
 
  avg>50 ?
@@ -26,3 +35,12 @@
 
  return 0;
  }
+ /*
+ OUTPUT:-
+ Enter PCM marks and check eligibility of students
+ Enter physics marks =62
+ Enter chemistry marks=58
+ Enter maths marks =55
+ PCM average= 58.000
+ student is eligible for admission
+ /*
