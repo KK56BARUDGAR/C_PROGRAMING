@@ -1,3 +1,6 @@
+name.. kaif barudgar
+roll no.. 47
+ uin..241S063
 // adding two numbers using pointers
 #include <stdio.h>
 int main() {
@@ -14,3 +17,8 @@ int main() {
  printf("Sum of %d and %d is %d\n", *ptr1, *ptr2, *ptrSum);
  return 0;
 }
+
+output
+Enter the first number: 24
+Enter the second number: 23
+Sum of 24 and 23 is 47
