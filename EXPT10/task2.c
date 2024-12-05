@@ -1,6 +1,9 @@
+Name. kaif barudgar
+roll no 47
+ uin . 241S063
 // printing the elements of an array in reverse order using pointers
-#include <stdio.h>
-int main() {
+include <stdio.h>
+int mai#n() {
  int n;
  printf("Enter the number of elements in the array: ");
  scanf("%d", &n);
@@ -17,3 +20,10 @@ int main() {
  printf("\n");
  return 0;
 }
+output
+enter the number of element array : 3
+ enter array elements : 1
+ 2
+ 3
+ 3 2 1
+ */
